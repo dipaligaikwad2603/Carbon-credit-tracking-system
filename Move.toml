@@ -1,0 +1,16 @@
+[package]
+name = "Carbon _credit_ tracking_ system"
+version = "1.0.0"
+authors = []
+
+[addresses]
+CreditTrackingsystem='0x0d3d00fd3f96d7e4565b6602aeb297fbddc8c6d1a6f1f550a8a8cd5e9117de9c'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
